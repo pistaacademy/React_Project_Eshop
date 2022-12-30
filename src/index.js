@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <Contact />,
     },
     {
-        path: "/order",
+        path: "/order-history",
         element: <OrderHistory />,
     },
   ]);
