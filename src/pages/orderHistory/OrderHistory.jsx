@@ -1,11 +1,15 @@
 import React from 'react';
 
-import styles from './OrderHistory.module.css';
+import styles from './OrderHistory.module.scss';
+
+import { Footer, Header } from '../../components/index';
 
 const OrderHistory = () => {
     return (
         <div>
-            Order History
+            <Header />
+            OrderHistory
+            <Footer />
         </div>
     )
 }
